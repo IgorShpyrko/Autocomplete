@@ -1,0 +1,47 @@
+html {
+	height: 100%;
+}
+
+body {
+	background: #AAA;
+	height: 100%;
+}
+
+.autocomplete {
+	width: 300px;
+
+	input {
+		width: 290px;
+	}
+
+	.hints-wrapper {
+		position: relative;
+		margin-top: 2px;
+
+		.hints {
+			position: absolute;
+			max-height: 150px;
+			width: 100%;
+			background-color: rgba(114, 190, 184, .9);
+			z-index: 1;
+			overflow: auto;
+			opacity: 1;
+
+			.hint {
+				color: black;
+				opacity: 1;
+
+				&:hover {
+					background-color: rgba(64, 210, 202, 0.9);
+				}
+			}
+
+		}
+	}
+}
+
+.todo-list {
+	span.done {
+		text-decoration: line-through;
+	}
+}
