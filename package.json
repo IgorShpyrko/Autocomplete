@@ -4,10 +4,7 @@
   "description": "",
   "private": true,
   "scripts": {
-    "dev": "webpack --mode development ./src/index.js --output ./dist/main.js",
-    "dev1": "webpack",
-    "build": "webpack --mode production ./src/index.js --output ./dist/main.js",
-    "start": "webpack-dev-server --mode development"
+    "dev": "webpack-dev-server --mode development"
   },
   "repository": {
     "type": "git",
