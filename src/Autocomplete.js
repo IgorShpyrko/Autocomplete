@@ -19,9 +19,9 @@ export class Autocomplete {
 		this.hints.className = 'hints';
 		this.hintsWrapper.appendChild(this.hints);
 
-		this.input.addEventListener("focus", (e) => this.showHints(e));
-		window.addEventListener("click", (e) => this.hideHints(e));
-		this.input.addEventListener("input", (e) => this.showHints(e));
+		this.input.addEventListener('focus', (e) => this.showHints(e));
+		window.addEventListener('click', (e) => this.hideHints(e));
+		this.input.addEventListener('input', (e) => this.showHints(e));
 
 		this.filteredList = [];
 	}
